@@ -58,24 +58,27 @@
 
 
 <meta name="description" content="模板方法模式的定义和组成模板方法模式是一种基于继承的设计模式.
-模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
+模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.
+通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
 子类通过继承整个抽象父类,也继承了整个算法框架.
-例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;食">
+例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="模板方法模式">
 <meta property="og:url" content="http://yoursite.com/2016/03/16/模板方法模式/index.html">
 <meta property="og:site_name" content="Peizhao's blog">
 <meta property="og:description" content="模板方法模式的定义和组成模板方法模式是一种基于继承的设计模式.
-模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
+模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.
+通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
 子类通过继承整个抽象父类,也继承了整个算法框架.
-例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;食">
-<meta property="og:updated_time" content="2016-03-16T15:39:46.000Z">
+例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;">
+<meta property="og:updated_time" content="2016-03-17T14:42:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="模板方法模式">
 <meta name="twitter:description" content="模板方法模式的定义和组成模板方法模式是一种基于继承的设计模式.
-模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
+模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.
+通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
 子类通过继承整个抽象父类,也继承了整个算法框架.
-例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;食">
+例子发哥演的电影&amp;quot;澳门风云&amp;quot;里面有个机器人管家叫&amp;quot;傻强&amp;quot;,他经常问客人&amp;quot;">
 
 
 
@@ -269,9 +272,11 @@
 
       
         <h1 id="u6A21_u677F_u65B9_u6CD5_u6A21_u5F0F_u7684_u5B9A_u4E49_u548C_u7EC4_u6210"><a href="#u6A21_u677F_u65B9_u6CD5_u6A21_u5F0F_u7684_u5B9A_u4E49_u548C_u7EC4_u6210" class="headerlink" title="模板方法模式的定义和组成"></a>模板方法模式的定义和组成</h1><pre><code>模板方法模式是一种基于继承的设计模式.
-模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
+模板方法模式由两部分组成,第一部分是抽象父类,第二部分是具体的子类.
+通常在抽象父类中封装了子类的算法框架,包括实现一些公共方法以及封装子类中所有方法的执行顺序.
 子类通过继承整个抽象父类,也继承了整个算法框架.
-</code></pre><h1 id="u4F8B_u5B50"><a href="#u4F8B_u5B50" class="headerlink" title="例子"></a>例子</h1><pre><code>发哥演的电影&quot;澳门风云&quot;里面有个机器人管家叫&quot;傻强&quot;,他经常问客人&quot;食茶还是coffee啊&quot;.这里的咖啡和茶是一个很好的例子.
+</code></pre><h1 id="u4F8B_u5B50"><a href="#u4F8B_u5B50" class="headerlink" title="例子"></a>例子</h1><pre><code>发哥演的电影&quot;澳门风云&quot;里面有个机器人管家叫&quot;傻强&quot;,他经常问客人&quot;食茶还是coffee啊&quot;.
+这里的咖啡和茶是一个很好的例子.
 首先,当我们想泡一杯咖啡的时候,第一步就是煮开水.然后用开水冲泡咖啡.接着把咖啡倒进杯子里.最后根据每个人的喜好加糖和牛奶.
 当我们想泡茶的时候,首先也是煮开水,然后用开水泡茶,接着茶倒进杯子,最后加调料.
 
@@ -279,7 +284,8 @@
 煮水,冲泡饮料,倒进杯子,加调料.
 
 但是还是存在一些不同的地方.
-比如说他们的原料不同,一个是咖啡豆,一个是茶叶.他们冲泡的方式不同,咖啡可以萃取,滴虑,按压,而茶叶是浸泡.他们最后加的调料不一样.
+比如说他们的原料不同,一个是咖啡豆,一个是茶叶.
+他们冲泡的方式不同,咖啡可以萃取,滴虑,按压,而茶叶是浸泡.他们最后加的调料不一样.
 </code></pre><h1 id="UML"><a href="#UML" class="headerlink" title="UML"></a>UML</h1><p>//TODO</p>
 <h1 id="u4F7F_u7528_u573A_u666F"><a href="#u4F7F_u7528_u573A_u666F" class="headerlink" title="使用场景"></a>使用场景</h1><pre><code>从大的方面来讲,模板方法模式常被架构师用于搭建项目的框架,架构师定好了框架的骨架,程序员继承框架的结构之后,负责往里面填空.
 比如 BaseBLL
@@ -301,6 +307,10 @@
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/17/近期项目总结/" rel="prev" title="近期项目线上地址">
+                近期项目线上地址 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -372,7 +382,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
